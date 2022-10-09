@@ -1,0 +1,83 @@
+.recommended{
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.img8{
+    width: 100%;
+    height: 75%;
+}
+
+.marketing3{
+    width: 5rem;
+    height: 1rem;
+    margin: 1rem 0 0 0.5rem;
+    border-width: 1px;
+    border-color: var(--co2);
+    border-style: solid;
+
+    padding:  0.2rem 0 0 0.3rem;
+    font-size: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co2);
+}
+
+.buyer{
+    font-size: 1rem;
+    font-family: 'Abyssinica SIL', serif;
+    color: var(--co1);
+    padding: 1.5rem 0 0 0.5rem;
+}
+
+.flecha11{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1rem;
+}
+
+.flecha1{
+    width: 5%;
+    align-items: right;
+    padding-bottom: 0.5rem;
+}
+
+.date1{
+    color: var(--co3);
+    padding: 1.2rem 0.5rem 0 0.5rem;
+    font-size: 0.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.topics{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+    margin-left: 0.5rem;
+}
+
+
+/* Ejecuta cuando la pantalla es mayor o igual a 500px*/
+
+@media only screen and (min-width:500px){
+    .reco{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .recommended{
+        width: 33%;
+        padding-right: 0.5rem;
+    }
+
+    .recommended2{
+        width: 33%;
+        padding-top: 5rem;
+        padding-right: 0.5rem;
+    }
+
+    .recommended3{
+        width: 33%;
+        padding-top: 6rem;
+    }
+
+}

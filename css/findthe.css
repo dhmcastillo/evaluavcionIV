@@ -1,0 +1,108 @@
+.findthe{
+    margin-top: 5rem;
+}
+
+.img5{
+    width: 100%;
+    height: 50%;
+    margin-top: 1rem;
+}
+
+.img6{
+    width: 100%;
+    height: 50%;
+}
+
+.product{
+    width: 4rem;
+    height: 1rem;
+    margin: 1rem 0 0 0.5rem;
+    border-width: 1px;
+    border-color: var(--co2);
+    border-style: solid;
+
+    padding:  0.2rem 0 0 0.3rem;
+    font-size: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co2);
+}
+
+.text2{
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--co1);
+}
+
+.explore{
+    width: 75%;
+    height: 20%;
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.explore1{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: var(--co1);
+}
+
+.vacio{
+}
+
+.themost2{
+    margin-top: 2rem;
+}
+
+.img7{
+    width: 100%;
+    height: 75%;
+}
+
+.always{
+    height: 25%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+    padding: 0 0 0 0.5rem;
+}
+
+/* Ejecuta cuando la pantalla es mayor o igual a 500px*/
+
+@media only screen and (min-width:500px){
+    .findthe{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .themost{
+        width: 33%;
+        padding-right: 0.5rem;
+    }
+    
+    .themost1{
+        width: 33%;
+        padding-right: 0.5rem;
+    }
+
+    .explore{
+        height: 10%;
+    }
+    
+    .themost2{
+        width: 33%;
+        margin-top: 0;
+    }
+
+    .explore1{
+        padding: 0.3 0.2rem 0 0.2rem;
+    }
+
+}

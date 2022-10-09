@@ -1,0 +1,164 @@
+.img3{
+    width: 100%;
+    height: 50%;
+    margin-top: 5rem;
+}
+
+.things{
+    padding-right: 1rem;
+    margin-left: 0.5rem;
+}
+
+.realtor{
+    width: 4rem;
+    height: 1rem;
+    margin: 1rem 0 0 0.5rem;
+    border-width: 1px;
+    border-color: var(--co2);
+    border-style: solid;
+}
+
+.realtor2{
+    padding:  0.3rem 0 0 0.2rem;
+    font-size: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co2);
+}
+
+.thelast{
+    margin: 3rem 0 0 0.5rem;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.thelastest{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+}
+
+.uno{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.news{
+    width: 3rem;
+    height: 1rem;
+    margin: 1rem 0 0 0;
+    border-width: 1px;
+    border-color: var(--co2);
+    border-style: solid;
+    
+    padding:  0.2rem 0 0 0.3rem;
+    font-size: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+}
+
+.dates{
+    color: var(--co3);
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.september{
+    font-family: 'Abyssinica SIL', serif;
+    color: var(--co1);
+    padding: 1rem 0 0 0;
+}
+
+.img4{
+   width: 100%;
+   padding-top: 1.5rem;
+}
+
+
+.div2{
+    width: 100%;
+    margin-top: 3rem;
+
+}
+
+.dos{
+    width: 100%;
+}
+
+.nevermiss{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+}
+
+
+.getour{
+    color: var(--co1);
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.email{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.emailaddress{
+    width: 75%;
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.countmein{
+    width: 25%;
+    height: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color: var(--co1);
+}
+
+.countme{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+/* Ejecuta cuando la pantalla es mayor o igual a 800px*/
+
+@media only screen and (min-width: 800px) {
+    
+    .div111{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .things{
+        width: 50%;
+    }
+    
+    .thelast{
+        width: 50%;
+        margin-top: 5rem;
+    }
+
+    .img4{
+        height: 10rem;
+    }
+
+}
+

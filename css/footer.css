@@ -1,0 +1,109 @@
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    width: 32%;
+}
+
+.list1{
+    margin: 0 0 0 0.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+}
+
+.list2{
+    margin: 0 0 0 0.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+}
+
+.list3{
+    margin: 0 0 0 0.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+}
+
+.list4{
+    margin: 0 0 0 0.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--co1);
+}
+
+.social{
+    width: 32%;
+    position: relative;
+}
+
+.media1{
+    width: 15%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.media2{
+    width: 15%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.media3{
+    width: 15%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+.media4{
+    width: 15%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+/* Ejecuta cuando la pantalla es mayor o igual a 1200px*/
+
+@media only screen and (min-width:500px){
+    
+    .social{
+        width: 32%;
+        position: relative;
+    }
+    
+    .media1{
+        width: 10%;
+        height: 25%;
+    }
+    
+    .media2{
+        width: 10%;
+        height: 25%;
+    }
+    
+    .media3{
+        width: 10%;
+        height: 25%;
+    }
+    
+    .media4{
+        width: 10%;
+        height: 25%;
+    }
+    
+}
